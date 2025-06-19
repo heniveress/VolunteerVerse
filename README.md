@@ -66,3 +66,10 @@ The frontend of VolunteerVerse is built using modern web technologies to ensure 
 * **[SWR](https://swr.vercel.app/):** A React Hooks library for data fetching, caching, and revalidation.
 * **[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API):** For making network requests to the backend API.
 * **[npm](https://docs.npmjs.com/):** Node Package Manager for managing project dependencies.
+
+---
+
+## Demo gifs
+
+* **Guest:**
+    ![Guest's viewpoint](assets/guest.gif)
