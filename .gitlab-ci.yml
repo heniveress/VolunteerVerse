@@ -1,0 +1,31 @@
+stages:
+  - build
+  - deploy
+
+frontend-build:
+  stage: build
+  image: node
+  before_script:
+    - npm i --quiet
+  script:
+    - npm run build --configuration=production
+  artifacts:
+    untracked: false
+    when: on_success
+    expire_in: 30 min
+    name: 'frontend-${CI_COMMIT_SHORT_SHA}'
+    paths:
+      - build
+  only:
+    - branches
+
+frontend-deploy:
+  stage: deploy
+  image: mcr.microsoft.com/azure-cli
+  dependencies:
+    - frontend-build
+  script:
+    - az storage blob delete-batch -s "\$web" --connection-string "$AZ_STORAGE"
+    - az storage blob upload-batch --destination "\$web" --source build --connection-string "$AZ_STORAGE"
+  only:
+    - main
