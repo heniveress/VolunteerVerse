@@ -5,7 +5,7 @@
 * [About the project](#about-the-project)
 * [Features](#features)
 * [Technologies used](#technologies-used)
-* [Screenshots](#screenshots)
+* [Demo](#demo)
   
 ---
 
@@ -52,6 +52,10 @@ The VolunteerVerse frontend provides a comprehensive set of functionalities for 
 * **Event acceptance notifications:** Users receive notifications when their application for an event is accepted.
 * **Review notifications:** Users receive notifications when a review is written about them (volunteer) or their event (organization).
 
+**Participation documentation:**
+
+* **Participation certificates:** After participating in a volunteer event, users can download a document from their profile page. This document precisely details their involvement, including the event name, date(s) of participation, and total hours contributed.
+
 ---
 
 ## Technologies used
@@ -69,7 +73,8 @@ The frontend of VolunteerVerse is built using modern web technologies to ensure 
 
 ---
 
-## Demo gifs
+## Demo
 
-* **Guest:**
-    ![Guest's viewpoint](assets/guest.gif)
+Since the application is unfortunately no longer running on Azure, the following demo videos and project presentation provide a visual insight into how the website looks and functions.
+
+For a more detailed understanding, you can explore the individual video clips located in the [`assets/demo_videos/` folder](assets/demo_videos/), or the [VolunteerVerse PPT](assets/VolunteerVerse.ppt)
