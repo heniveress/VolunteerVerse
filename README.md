@@ -12,6 +12,7 @@
 ## About the poject
 
 This project, **VolunteerVerse**, represents the client-side (frontend) implementation of a volunteer coordination platform. It is developed as a Single-Page Application (SPA) designed to facilitate the connection between individuals willing to volunteer and organizations or events in need of volunteers. The platform aims to streamline the process of finding, applying for, and managing volunteer opportunities, as well as enabling organizations to create and manage their events and volunteers.
+*Note: This project was originally version-controlled on GitLab during development and has been mirrored here on GitHub.*
 
 ---
 
@@ -78,3 +79,4 @@ The frontend of VolunteerVerse is built using modern web technologies to ensure 
 Since the application is unfortunately no longer running on Azure, the following demo videos and project presentation provide a visual insight into how the website looks and functions.
 
 For a more detailed understanding, you can explore the individual video clips located in the [`assets/demo_videos/` folder](assets/demo_videos/), or the [VolunteerVerse PPT](assets/VolunteerVerse.ppt)
+
